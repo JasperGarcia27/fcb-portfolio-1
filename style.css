@@ -1,0 +1,81 @@
+
+/* https://fonts.google.com/ */
+* {
+	font-family: 'Poltawski Nowy', serif;
+}
+
+h1, h2 {
+	
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	/*text-align: center;*/
+}
+
+/*image style*/
+#profilepicture{
+	height: 300px;
+	width: 300px;
+	border-radius: 200px;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#tools {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 75vh;
+	border-radius: 6px;
+	background-image: linear-gradient(lightblue, royalblue);
+}
+
+
+#gallery {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 75vh;
+	border-radius: 6px;
+}
+
+#gallery .container {
+	padding: 25px;
+	height: 500px;
+	border: 5px solid #0983e7;
+	margin: 20px;
+	color: white;
+	width: 75%;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#dark-change {
+	padding-top: 25px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.toolsitem {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
